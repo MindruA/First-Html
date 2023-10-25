@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Angajari</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <h1 style="font-size:2cm; text-align: center; color:darkcyan;font-family:Verdana, Geneva, Tahoma, sans-serif;" id="titlu">ANGAJARI</h1>
+   <h3 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Completati formularul cu datele dumneavoastra</h3>
+   <form>
+    <label id="username">Nume</label>
+   <input type="text" id="username" name="username">
+   <br>
+<br>
+<label id="email">Email</label>
+<input type="text" id="email" name="email">
+<br>
+<br>
+   <label id="varsta">Varsta</label>  
+   <input type="number" step="1" min="18" max="60" id="varsta" name="varsta">
+   <br>
+<br>
+<label id="experienta"></label>
+<span>Neexperimentat<input type="range" id="experienta" name="experienta" min="1" max="10">Experimentat</span>
+<br>
+<br>
+<label id="studiile">Studii</label>
+<input list="studii" id="studiile" name="studiile">
+<datalist id="studii">
+  <option value="Gimnaziale">Sub 12 clase</option>
+  <option value="Liceale">12 clase terminate</option>
+  <option value="Superioare">Studii superioare</option>
+</datalist>
+<br>
+<br>
+<textarea id="FIRME" rows="5" cols="40">La ce firme ati mai lucrat?</textarea>
+  <h2>Tipul contractului</h2>
+  <label id="determinat">Determinat</label>
+  <input type="radio" id="determinat" name="contract">
+  <br>
+  <label id="nedeterminat">Nedeterminat</label>
+  <input type="radio" id="nedeterminat" name="contract">
+  <br>
+  <br>
+  <input type="submit" id="submit" name="submit">
+   </form>
+
+   
+
+
+     
+  </body>
+</html>

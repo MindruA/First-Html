@@ -1,0 +1,36 @@
+body{
+    background-size: 10cm;
+      background-color:gainsboro;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-vector/paper-style-white-monochrome-background_52683-66443.jpg?w=740&t=st=1697718227~exp=1697718827~hmac=ec314c70ce4012e944b19b6a95fbf91295e05677b6c1ddbc51803e6975cae004);
+    text-align: center
+    
+  }
+  
+ label{
+
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+ }
+ 
+ span{
+   
+    color:black;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ datalist{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+ }
+ #submit{
+    border-radius: 60px;
+    border-color: black;
+   background-color: black;
+   color: wheat;
+   padding: 10px 30px;
+   cursor: pointer;
+   font-size: 15px;
+ }
